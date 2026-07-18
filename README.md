@@ -11,3 +11,6 @@ An ultra-low latency, computer-vision desktop peripheral control utility utilizi
 1. Clone or download this repository.
 2. Right-click and run `install.bat` as an Administrator to install package dependencies automatically.
 3. Run `python gesture_controller.py` to start the app dashboard!
+* **Microphone HUD Hook:** Check "Enable Voice Command Control" and say `"stop running"` to completely shutdown the workspace automatically.
+* **Sniper Precision Matrix:** Widen your eyes/raise your eyebrows to decrease sensitivity values instantly for fine-tuned precision clicking.
+* **Page Scrolling Peripherals:** Pinch your thumb and pinky together while shifting vertically to scroll documents smoothly.
