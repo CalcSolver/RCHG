@@ -7,8 +7,16 @@ echo.
 :: 1. Check if Python is installed
 python --version >nul 2>&1
 if %errorlevel% neq 0 (
-    echo [ERROR] Python is not installed or not added to your System PATH.
-    echo Please install Python 3.10+ from python.org and check "Add Python to PATH".
+    echo [ALERT] Python was not found on your system.
+    echo Launching python.org in your browser...
+    echo.
+    echo CRITICAL STEP: When installing Python, you MUST check the 
+    echo box at the bottom that says "Add Python to PATH".
+    echo.
+    
+    :: Automatically opens the browser to the official download URL
+    start https://www.python.org/downloads/
+    
     pause
     exit /b
 )
